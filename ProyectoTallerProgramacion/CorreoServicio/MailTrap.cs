@@ -31,7 +31,7 @@ namespace CorreoServicio
             MailMessage correo = new MailMessage();
             try
             {
-                correo.From = new MailAddress(pCuenta.Direccion + "@dd");
+                correo.From = new MailAddress(pCuenta.Direccion + "@mail.com");
                 correo.To.Add(pCorreo.CuentaDestino);
                 correo.Subject = pCorreo.Asunto;
                 correo.Body = pCorreo.Texto;
