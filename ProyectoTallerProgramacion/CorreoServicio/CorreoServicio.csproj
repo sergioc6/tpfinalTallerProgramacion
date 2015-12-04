@@ -42,6 +42,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="MailTrap.cs" />
     <Compile Include="FabricaServicios.cs" />
     <Compile Include="Gmail.cs" />
     <Compile Include="IServicioCorreo.cs" />
